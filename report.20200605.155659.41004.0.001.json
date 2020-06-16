@@ -1,0 +1,440 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200605.155659.41004.0.001.json",
+    "dumpEventTime": "2020-06-05T15:56:59Z",
+    "dumpEventTimeStamp": "1591343819345",
+    "processId": 41004,
+    "threadId": null,
+    "cwd": "D:\\project\\lin\\test-angular",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:/project/lin/test-angular/node_modules/@angular/compiler-cli/ngcc/src/execution/cluster/worker.js",
+      "--source",
+      "D:\\project\\lin\\test-angular\\node_modules",
+      "--properties",
+      "es2015",
+      "browser",
+      "module",
+      "main",
+      "--first-only",
+      "--create-ivy-entry-points",
+      "--async",
+      "--tsconfig",
+      "D:/project/lin/test-angular/tsconfig.app.json"
+    ],
+    "nodejsVersion": "v12.16.2",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.2",
+      "v8": "7.8.279.23-node.34",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1e",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.2/node-v12.16.2-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.2/node-v12.16.2.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.2/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.17134",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz",
+        "speed": 2200,
+        "user": 123785015,
+        "nice": 0,
+        "sys": 64574609,
+        "idle": 4154156093,
+        "irq": 1613468
+      },
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz",
+        "speed": 2200,
+        "user": 162290859,
+        "nice": 0,
+        "sys": 66579875,
+        "idle": 4113643500,
+        "irq": 1506390
+      },
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz",
+        "speed": 2200,
+        "user": 158773062,
+        "nice": 0,
+        "sys": 77963796,
+        "idle": 4105777375,
+        "irq": 1322078
+      },
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz",
+        "speed": 2200,
+        "user": 212216843,
+        "nice": 0,
+        "sys": 67083734,
+        "idle": 4063213671,
+        "irq": 2129953
+      },
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz",
+        "speed": 2200,
+        "user": 174349125,
+        "nice": 0,
+        "sys": 65710734,
+        "idle": 4102454375,
+        "irq": 1628687
+      },
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz",
+        "speed": 2200,
+        "user": 153701796,
+        "nice": 0,
+        "sys": 167045046,
+        "idle": 4021767406,
+        "irq": 1636921
+      },
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz",
+        "speed": 2200,
+        "user": 199464625,
+        "nice": 0,
+        "sys": 78431578,
+        "idle": 4064618046,
+        "irq": 1689859
+      },
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz",
+        "speed": 2200,
+        "user": 127867218,
+        "nice": 0,
+        "sys": 72814250,
+        "idle": 4141832781,
+        "irq": 1363609
+      },
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz",
+        "speed": 2200,
+        "user": 143328359,
+        "nice": 0,
+        "sys": 74772984,
+        "idle": 4124412906,
+        "irq": 2373437
+      },
+      {
+        "model": "Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz",
+        "speed": 2200,
+        "user": 188945312,
+        "nice": 0,
+        "sys": 109331437,
+        "idle": 4044237500,
+        "irq": 14675468
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "以太网 2",
+        "internal": false,
+        "mac": "00:15:5d:00:fc:19",
+        "address": "fe80::1183:a22b:2fae:9a6",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 4
+      },
+      {
+        "name": "以太网 2",
+        "internal": false,
+        "mac": "00:15:5d:00:fc:19",
+        "address": "192.168.0.93",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-7F7KANA"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff70a822309",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+11577"
+    },
+    {
+      "pc": "0x00007ff70a826869",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+29337"
+    },
+    {
+      "pc": "0x00007ff70a8256e8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24856"
+    },
+    {
+      "pc": "0x00007ff70a94dd82",
+      "symbol": "v8::base::CPU::has_sse+59378"
+    },
+    {
+      "pc": "0x00007ff70b16a27e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff70b152351",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff70b01e8ac",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff70b026831",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3761"
+    },
+    {
+      "pc": "0x00007ff70b01be03",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff70b01a474",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2452"
+    },
+    {
+      "pc": "0x00007ff70b03b67d",
+      "symbol": "v8::internal::Factory::NewFillerObject+61"
+    },
+    {
+      "pc": "0x00007ff70ada13d1",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1665"
+    },
+    {
+      "pc": "0x00007ff70b5b730d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x00007ff70b5b823d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+550525"
+    },
+    {
+      "pc": "0x00000110fa088a18",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 35237888,
+    "totalCommittedMemory": 35237888,
+    "usedMemory": 33555040,
+    "availableMemory": 2164533336,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047456,
+        "used": 1047448,
+        "available": 8
+      },
+      "old_space": {
+        "memorySize": 11411456,
+        "committedMemory": 11411456,
+        "capacity": 11340800,
+        "used": 10758136,
+        "available": 582664
+      },
+      "code_space": {
+        "memorySize": 430080,
+        "committedMemory": 430080,
+        "capacity": 405504,
+        "used": 174560,
+        "available": 230944
+      },
+      "map_space": {
+        "memorySize": 1052672,
+        "committedMemory": 1052672,
+        "capacity": 1051144,
+        "used": 580480,
+        "available": 470664
+      },
+      "large_object_space": {
+        "memorySize": 20602880,
+        "committedMemory": 20602880,
+        "capacity": 20583016,
+        "used": 20583016,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 380928,
+        "committedMemory": 380928,
+        "capacity": 1047456,
+        "used": 375808,
+        "available": 671648
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 1.671,
+    "kernelCpuSeconds": 0.5,
+    "cpuConsumptionPercent": 72.3667,
+    "maxRss": 80506880,
+    "pageFaults": {
+      "IORequired": 32956,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 194,
+      "writes": 7
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\tongwii\\AppData\\Roaming",
+    "BROWSERSLIST_IGNORE_OLD_DATA": "1",
+    "CLIENTNAME": "TONGWII-PC",
+    "CMDER_HOME": "C:\\Users\\tongwii\\Downloads\\cmder",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-7F7KANA",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "dp0": "D:\\project\\lin\\test-angular\\node_modules\\.bin\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\tongwii",
+    "IDEA_INITIAL_DIRECTORY": "C:\\Program Files\\JetBrains\\WebStorm 2020.1\\jbr\\bin",
+    "LOCALAPPDATA": "C:\\Users\\tongwii\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-7F7KANA",
+    "NODE_PATH": "D:\\node_\\node_global\\node_modules",
+    "NUMBER_OF_PROCESSORS": "10",
+    "OneDrive": "C:\\Users\\tongwii\\OneDrive",
+    "OS": "Windows_NT",
+    "PATH": "D:\\project\\lin\\test-angular\\node_modules\\.bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\tongwii\\Downloads\\cmder;D:\\Program Files (x86)\\Yarn\\bin\\;D:\\node_\\node_global;C:\\Users\\tongwii\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\tongwii\\AppData\\Roaming\\npm;C:\\Program Files\\JetBrains\\WebStorm 2020.1\\bin;;C:\\Users\\tongwii\\AppData\\Local\\Yarn\\bin",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 79 Stepping 1, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "4f01",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "RDP-Tcp#67",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\tongwii\\AppData\\Local\\Temp",
+    "TERMINAL_EMULATOR": "JetBrains-JediTerm",
+    "TMP": "C:\\Users\\tongwii\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-7F7KANA",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-7F7KANA",
+    "USERNAME": "tongwii",
+    "USERPROFILE": "C:\\Users\\tongwii",
+    "WEBPACK_DEV_SERVER": "true",
+    "WebStorm": "C:\\Program Files\\JetBrains\\WebStorm 2020.1\\bin;",
+    "windir": "C:\\Windows",
+    "_prog": "node",
+    "__INTELLIJ_COMMAND_HISTFILE__": "C:\\Users\\tongwii\\AppData\\Roaming\\JetBrains\\WebStorm2020.1\\terminal\\history\\history-78"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\SYSTEM32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\System32\\winrnr.dll"
+  ]
+}
