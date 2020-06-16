@@ -1,0 +1,26 @@
+<div class="basic-table-container">
+  <nz-table #basicTable [nzData]="listOfData">
+    <thead>
+    <tr>
+      <th>单号</th>
+      <th>商品</th>
+      <th>价格</th>
+      <th>库存</th>
+      <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let data of basicTable.data">
+      <td>{{ data.key }}</td>
+      <td>{{ data.shopName }}</td>
+      <td>{{ data.price | pricePipe}}</td>
+      <td>{{ data.store | storePipe }}</td>
+      <td>
+        <a>Action 一 {{ data.shopName }}</a>
+        <nz-divider nzType="vertical"></nz-divider>
+        <a>Delete</a>
+      </td>
+    </tr>
+    </tbody>
+  </nz-table>
+</div>

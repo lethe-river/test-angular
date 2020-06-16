@@ -6,6 +6,7 @@ import {BehaviorSubject, Observable, Subject} from "rxjs";
 })
 export class CommonService {
   dataList: BehaviorSubject<Object> = new BehaviorSubject([]);
+  num = 100;
 
   constructor() {
   }

@@ -88,11 +88,12 @@ export class TestComponent implements OnInit {
     //   })
     this.num++;
     this.list.push({
-      name: '123'+this.num,
+      name: '123' + this.num,
       email: '123',
-      age: 'age'+this.num
+      age: 'age' + this.num
     })
     this.commonService.dataList.next(this.list);
+    this.commonService.num = 110;
     // this.commonService.dataList.complete();
   }
 

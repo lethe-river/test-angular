@@ -17,8 +17,9 @@ import {CommonService} from "../assets/common/common.service";
 import {NzButtonModule, NzCheckboxModule, NzFormModule, NzInputModule, NzMessageService} from "ng-zorro-antd";
 
 //模块
-import {BasicFormModule} from "./pages/basic-form/basicForm.module";
+import {BasicFormModule} from "./pages/basic-form/basic-form.module";
 import {WelcomeModule} from './pages/welcome/welcome.module';
+import {BasicTableModule} from "./pages/basic-table/basic-table.module";
 
 registerLocaleData(zh);
 
@@ -38,10 +39,14 @@ registerLocaleData(zh);
     NzInputModule,
     WelcomeModule,
     BasicFormModule,
+    BasicTableModule,
     NzCheckboxModule,
-    NzButtonModule
+    NzButtonModule,
   ],
   providers: [{provide: NZ_I18N, useValue: zh_CN}, CommonService, NzMessageService],
+  exports: [
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {

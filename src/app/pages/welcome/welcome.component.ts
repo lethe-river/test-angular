@@ -10,10 +10,14 @@ import {CommonService} from "../../../assets/common/common.service";
 export class WelcomeComponent implements OnInit {
   text: any;
 
-  constructor(private userSetService: UserSetService,private commonService: CommonService) {
+  constructor(private userSetService: UserSetService, private commonService: CommonService) {
   }
 
   ngOnInit() {
+    this.commonService.dataList.subscribe(data => {
+      console.log(data)
+    })
+    console.log(this.commonService.num);
   }
 
   getClick() {
